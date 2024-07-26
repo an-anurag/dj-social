@@ -198,9 +198,9 @@ MESSAGE_TAGS = {
 
 
 # Twillio sms config
-TWILIO_ACCOUNT_SID = "AC3a4644a5335597586ee299c0b80c9ff5"
-TWILIO_AUTH_TOKEN = "4286611e3db348e90801a14217c6faaa"
-TWILIO_NUMBER = "+18305005443"
+TWILIO_ACCOUNT_SID = "twilio-account-sid"
+TWILIO_AUTH_TOKEN = "twilio-auth-token"
+TWILIO_NUMBER = "twilio-number"
 
 # Provider specific settings
 SOCIALACCOUNT_PROVIDERS = {
@@ -224,9 +224,9 @@ INTERNAL_IPS = ['127.0.0.1']
 
 
 # Django email
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = 'smtp-host'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'an.anuraag@gmail.com'
-EMAIL_HOST_PASSWORD = 'ilnxflpnmpehrjcj'
+EMAIL_HOST_USER = 'smtp-user'
+EMAIL_HOST_PASSWORD = 'password'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
